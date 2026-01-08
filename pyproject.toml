@@ -1,0 +1,11 @@
+[project]
+name = "usb-webcam-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "keyring>=25.6.0",
+    "opencv-python>=4.11.0.86",
+    "secretstorage>=3.3.3",
+]
